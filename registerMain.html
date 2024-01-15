@@ -1,0 +1,43 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="/registerStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+<body>
+    <div class="body-form">
+        <div class="header">
+            <img src="/icons/htcLogo.jpg" alt="">
+            <h1>Inscrição</h1>
+            <p>Faça sua inscrição para o melhor curso de programação do Brasil</p>
+        </div>
+        <form class="form">
+            <label for="complete-name">E-mail </label>
+            <input type="text" id="complete-name" name="name">
+            <label for="email">Nome</label>
+            <input type="email" id="email" name="email">
+            <label for="number">idade</label>
+            <input type="number" id="number" name="number">
+            <label for="age">Quando deseja começar</label>
+            <input type="date" id="age" name="age">
+            <span class="span-tac">
+            <input type="checkbox" id="tac" name="terms-and-condition">
+               <label for="tac"><a href="/eula.html" target="_blank ">Aceito os termos de usuario</a>
+            </label>
+        </span>
+        <button type="submit" id="submitId" class="button-send-forms" 
+        onclick="button()" value="confirmSend"> Enviar 
+        
+
+               </button>
+           
+        </form>
+      
+</body>
+   <script src="/alertSend.js"></script>
+</html>
